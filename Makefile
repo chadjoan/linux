@@ -18,8 +18,8 @@ $(if $(filter __%, $(MAKECMDGOALS)), \
 PHONY := __all
 __all:
 
-CKVERSION = -ck1
-CKNAME = MuQSS Powered
+CKVERSION = -ck-gentoo
+CKNAME = MuQSS and Gentoo Powered
 EXTRAVERSION := $(EXTRAVERSION)$(CKVERSION)
 
 # We are using a recursive build, so we need to do a little thinking
